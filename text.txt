@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>معطر عافية</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .price {
+      font-size: 24px;
+      color: #007b00;
+      margin: 10px 0;
+    }
+    .ads {
+      background-color: #e0ffe0;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    .qr {
+      margin-top: 20px;
+    }
+    .qr img {
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="product">
+    <h1>🌸 معطر عافية</h1>
+    <img src="https://target-market.net/home/prod?ids=17842" alt="معطر عافية">
+    <p class="price">السعر: 1 دولار فقط</p>
+    <p>معطر جو منعش برائحة تدوم طويلًا، مثالي للمنزل والسيارة والمكتب.</p>
+    <div class="ads">
+      <h3>✨ إعلان المنتج:</h3>
+      <ul>
+        <li>روائح طبيعية تأسر الحواس</li>
+        <li>صنع بفخر في سوريا</li>
+        <li>متوفر الآن بسعر مغري</li>
+        <li>جربه اليوم وعيش الانتعاش الحقيقي!</li>
+      </ul>
+    </div>
+    <div class="qr">
+      <h3>📱 امسح لفتح الصفحة:</h3>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://abd-dev.github.io/aafiya-spray" alt="QR Code">
+    </div>
+  </div>
+</body>
+</html>
